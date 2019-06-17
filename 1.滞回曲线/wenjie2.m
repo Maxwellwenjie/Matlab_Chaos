@@ -4,7 +4,7 @@ close all;
 RelTol=1e-5;		
 AbsTol=1e-6;		
 options=odeset('RelTol',RelTol,'AbsTol',AbsTol);
-
+ 
 x0=0.1;
 
 t0=0:0.01:500;
